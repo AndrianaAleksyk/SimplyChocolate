@@ -1,18 +1,24 @@
 /*General Styles*/
 :root {
+    --primary-font: "Montserrat", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --primery-color: #111111;
+    --background-color:#FAFAFA;
 
 }
 .body {
-
+    font-family: var(--primery-font);
+    color: var(--primery-color);
+    background-color:var(--background-color);
 }
 .section {
 
 }
 .link {
-
+    text-decoration: none;
 }
 .list {
-
+    list-style: none;
 }
 
 /*Header*/
