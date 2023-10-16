@@ -28,11 +28,7 @@
   letter-spacing: -0, 03em;
   text-transform: uppercase;
 }
-.taste, 
-.made, 
-.products,
-.top,
-.chocolate {
+.orange {
   color: var(--orange, #fd9222);
 }
 
@@ -107,6 +103,13 @@
   background: rgba(17, 17, 17, 0.7);
   border-radius: 100px;
 }
+.hero-scroll {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0, 03em;
+  color: #fff;
+}
 /*Beneits section*/
 
 .benefits-section {
@@ -132,6 +135,12 @@
 .ingredients-item {
 }
 .ingredients-img {
+}
+.benefits-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.22x;
+  color: var(--white, #fff);
 }
 .ingredients-desc {
   font-size: 14px;
