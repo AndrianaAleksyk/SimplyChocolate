@@ -1,270 +1,233 @@
-/*General Styles*/
+/*Base Styles*/
 :root {
-    --primary-font: "Montserrat", sans-serif;
-    --secondary-font: "Raleway", sans-serif;
-    --primery-color: #111111;
-    --background-color:#FAFAFA;
-
+  --primary-font: "Montserrat", sans-serif;
+  --primery-color: #111111;
+  --background-color: #fafafa;
 }
 .body {
-    font-family: var(--primery-font);
-    color: var(--primery-color);
-    background-color:var(--background-color);
+  font-family: var(--primery-font);
+  color: var(--primery-color);
+  background-color: var(--background-color);
 }
 .section {
-
 }
 .link {
-    text-decoration: none;
+  color: currentColor;
+  text-decoration: none;
 }
 .list {
-    list-style: none;
+  list-style: none;
+}
+.title-section {
+  color: var(--black, #111);
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -0, 03em;
+  text-transform: uppercase;
+}
+.taste, 
+.made, 
+.products,
+.top,
+.chocolate {
+  color: var(--orange, #fd9222);
 }
 
 /*Header*/
 
 .header {
-
 }
 .navigation {
-
 }
 .logo {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    font-style: italic;
-    line-height: 1.1;
-    letter-spacing: 0,03em;
-    color: var(--black, #111);
+  font-weight: 700;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.1;
+  letter-spacing: -0, 03em;
 }
 .logo-chocolate {
-    font-style: normal;
-
+  font-style: normal;
 }
 .logo-img {
-
 }
 .navigation-list {
-
 }
 .navigation-item {
-
 }
 .navigation-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0,02em;
-    color: var(--black, #111);
-
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0, 02em;
 }
 .social-media-list {
-
 }
 .social-media-item {
-
+}
+.social-media-link {
+}
+.social-media-link:hover {
 }
 .social-media-img {
+}
 
-}
-.social-media-img:hover {
-    color: #FD9222;
-}
 /*Hero section*/
 
 .hero-section {
-
+  background: rgba(17, 17, 17, 0.7);
 }
 .hero-title {
-
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0, 03em;
+  color: #fff;
 }
 .hero-list {
-
 }
 .hero-button-list {
-
 }
-.hero-button-item {
-
+.hero-button-one {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: normal;
+  background: var(--orange, #fd9222);
+  border-radius: 100px;
 }
-
+.hero-button-two {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: normal;
+  background: rgba(17, 17, 17, 0.7);
+  border-radius: 100px;
+}
 /*Beneits section*/
 
 .benefits-section {
-
+  background-color: #1e1823;
 }
 .benefits-list {
-
 }
 .benefits-item {
-
-}
-.benefits-title {
-
 }
 .benefits-desc {
-
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0, 02em;
 }
 
 /*Ingredients section*/
 
 .ingredients-section {
-
-}
-.ingredients-title {
-
-}
-.taste {
-
 }
 .ingredients-list {
-
 }
 .ingredients-item {
-
 }
 .ingredients-img {
-
 }
 .ingredients-desc {
-
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.28;
+  letter-spacing: -0, 02em;
+  background-color: #fff;
+}
+.ingredients-desc-white {
+  color: #fff;
 }
 /*Made section*/
 
 .made-section {
-
-}
-.made-title {
-
 }
 .made-img {
-
 }
 .made-subtitle {
-
 }
 .made-list {
-
 }
 .made-item {
-
 }
 .made-desc {
-
 }
 /*Products section*/
 
 .products-section {
-
-}
-.products-title {
-
 }
 .products-list {
-
 }
 .products-item {
-
 }
 .products-img {
-
 }
 .products-subtitle {
-
 }
 .products-desc {
-
 }
 .products-price {
-
 }
 /*Sellers section*/
 
 .sellers-section {
-
-}
-.sellers-title {
-
 }
 .sellers-list {
-
 }
 .sellers-item {
-
 }
 .sellers-img {
-
 }
 .sellers-subtitle {
-
 }
 
 /*Reviews section*/
 
 .reviews-section {
-
-}
-.reviews-title {
-
 }
 .reviews-list {
-
 }
 .reviews-item {
-
 }
 .reviews-img {
-
 }
 .reviews-subtitle {
-
 }
 .reviews-desc {
-
 }
 .reviews-button {
-
 }
 
 /*Footer*/
 
 .footer-section {
-
 }
 .footer-title {
-
 }
-.chocolate {
-
+.accent {
 }
 .footer-sm-list {
-
 }
 .footer-sm-item {
-
 }
 .footer-sm-img {
-
 }
 .contact-title {
-
 }
 .contact-info {
-
 }
 .contact-list {
-
 }
 .contact-item {
-
 }
 .footer-navigation {
-
 }
 .footer-nav-list {
-
 }
 .footer-nav-item {
-    
 }
