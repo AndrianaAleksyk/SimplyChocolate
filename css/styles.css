@@ -89,7 +89,7 @@
 }
 .hero-button-one {
   color: #fff;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: normal;
   background: var(--orange, #fd9222);
@@ -97,7 +97,7 @@
 }
 .hero-button-two {
   color: #fff;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: normal;
   background: rgba(17, 17, 17, 0.7);
@@ -159,12 +159,19 @@
 .made-img {
 }
 .made-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
 }
 .made-list {
 }
 .made-item {
 }
 .made-desc {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0, 02em;
 }
 /*Products section*/
 
@@ -177,10 +184,22 @@
 .products-img {
 }
 .products-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0, 02em;
+  text-transform: uppercase;
 }
 .products-desc {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0, 02em;
+  color: rgba(17, 17, 17, 0.7);
 }
 .products-price {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
 }
 /*Sellers section*/
 
@@ -193,6 +212,11 @@
 .sellers-img {
 }
 .sellers-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0, 02em;
+  text-transform: uppercase;
 }
 
 /*Reviews section*/
@@ -206,19 +230,40 @@
 .reviews-img {
 }
 .reviews-subtitle {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
 }
 .reviews-desc {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0, 02;
+  color: rgba(17, 17, 17, 0.7);
 }
 .reviews-button {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
 }
 
 /*Footer*/
 
 .footer-section {
+  background: #1E1823;
 }
 .footer-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0, 02em;
+  color: #fff;
 }
 .accent {
+  color: #fd9222;
 }
 .footer-sm-list {
 }
@@ -226,17 +271,35 @@
 }
 .footer-sm-img {
 }
-.contact-title {
+.footer-subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  color: #fff;
 }
-.contact-info {
+.contact {
 }
 .contact-list {
 }
 .contact-item {
+}
+.contact-info {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0, 02em;
+  color: #fff;
 }
 .footer-navigation {
 }
 .footer-nav-list {
 }
 .footer-nav-item {
+}
+.footer-nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0, 02em;
+  color: #fff;
 }
