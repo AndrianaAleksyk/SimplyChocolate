@@ -22,6 +22,7 @@
   color: var(--black, #111);
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  font-style: normal;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.16;
@@ -57,6 +58,7 @@
 .navigation-link {
   font-weight: 500;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.14;
   letter-spacing: -0, 02em;
 }
@@ -78,6 +80,7 @@
 }
 .hero-title {
   font-size: 28px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.21;
   letter-spacing: -0, 03em;
@@ -91,6 +94,7 @@
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+  font-style: normal;
   line-height: normal;
   background: var(--orange, #fd9222);
   border-radius: 100px;
@@ -99,12 +103,14 @@
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+  font-style: normal;
   line-height: normal;
   background: rgba(17, 17, 17, 0.7);
   border-radius: 100px;
 }
 .hero-scroll {
   font-size: 14px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.28;
   letter-spacing: -0, 03em;
@@ -122,6 +128,7 @@
 .benefits-desc {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
+  font-style: normal;
   line-height: 1.28;
   letter-spacing: -0, 02em;
 }
@@ -138,12 +145,14 @@
 }
 .benefits-title {
   font-size: 18px;
+  font-style: normal;
   font-weight: 600;
   line-height: 1.22x;
   color: var(--white, #fff);
 }
 .ingredients-desc {
   font-size: 14px;
+  font-style: normal;
   font-weight: 600;
   line-height: 1.28;
   letter-spacing: -0, 02em;
@@ -160,6 +169,7 @@
 }
 .made-subtitle {
   font-size: 18px;
+  font-style: normal;
   font-weight: 600;
   line-height: 1.33;
 }
@@ -169,6 +179,7 @@
 }
 .made-desc {
   font-size: 14px;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0, 02em;
@@ -185,6 +196,7 @@
 }
 .products-subtitle {
   font-size: 18px;
+  font-style: normal;
   font-weight: 600;
   line-height: 1.33;
   letter-spacing: -0, 02em;
@@ -192,12 +204,14 @@
 }
 .products-desc {
   font-size: 12px;
+  font-style: normal;
   line-height: 1.16;
   letter-spacing: -0, 02em;
   color: rgba(17, 17, 17, 0.7);
 }
 .products-price {
   font-size: 14px;
+  font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
@@ -213,6 +227,7 @@
 }
 .sellers-subtitle {
   font-size: 18px;
+  font-style: normal;
   font-weight: 600;
   line-height: 1.33;
   letter-spacing: -0, 02em;
@@ -232,12 +247,14 @@
 .reviews-subtitle {
   text-align: center;
   font-size: 18px;
+  font-style: normal;
   font-weight: 600;
   line-height: 1.33;
 }
 .reviews-desc {
   text-align: center;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.28;
   letter-spacing: -0, 02;
   color: rgba(17, 17, 17, 0.7);
@@ -257,6 +274,7 @@
 }
 .footer-title {
   font-size: 28px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.21;
   letter-spacing: -0, 02em;
@@ -273,6 +291,7 @@
 }
 .footer-subtitle {
   font-size: 14px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.28;
   color: #fff;
@@ -285,6 +304,7 @@
 }
 .contact-info {
   text-align: center;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0, 02em;
@@ -298,6 +318,7 @@
 }
 .footer-nav-link {
   font-size: 14px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0, 02em;
